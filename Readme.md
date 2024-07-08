@@ -42,20 +42,33 @@ This project is a simple text editor application developed using the Qt framewor
    - Offers a straightforward option to close the application, ensuring user-friendly navigation.
    - Implements a close button or menu item that terminates the application when selected.
 
-10. **Clear Option to Clear the Screen**
+10. **Clear Option**
     - Provides a feature to clear all content from the editor, effectively resetting the workspace.
     - Implements a clear function that removes all text from the editor's display area.
 
-## Conclusion
+## Running the Project
 
-This "Simple Notepad Using QT" project provides essential text editing functionalities in a user-friendly Qt-based application. Developed with C++, it offers a familiar notepad-like experience with features for opening, saving, editing, and managing text files. The project leverages Qt's robust framework to ensure cross-platform compatibility and efficient handling of text and file operations.
+### Using the Application Directly
 
----
-# Running the Project
+If you only want to use the application without making any modifications, follow these steps:
 
-To run the project, follow these steps:
+1. **Check the `build` Folder**:
+   - Ensure that the `build` folder exists in the cloned repository.
 
-1. **Clone the repository from GitHub**:
+2. **Execute the Application**:
+   - Navigate to the following path in the terminal or file explorer:
+
+     ```plaintext
+     Notepad/build-Notepad-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/debug/Notepad.exe
+     ```
+
+   - Double-click `Notepad.exe` to launch the application.
+
+### Running the Project Through Qt Creator
+
+If you want to build and run the project using Qt Creator, follow these steps:
+
+1. **Clone the Repository**:
    - Open a terminal or command prompt.
    - Execute the following command to clone the repository:
 
@@ -63,9 +76,7 @@ To run the project, follow these steps:
      git clone https://github.com/sivasai-yarlagadda/SimpleNotepad_QT.git
      ```
 
-   
-
-2. **Open the project in Qt Creator**:
+2. **Open the Project in Qt Creator**:
    - Launch Qt Creator.
    - Click on **File > Open File or Project**.
    - Navigate to the directory where you cloned the repository and select the project file (`*.pro`).
@@ -73,27 +84,18 @@ To run the project, follow these steps:
 3. **Build and Run the Application**:
    - Configure the build settings (e.g., Debug or Release mode).
    - Set the build target to your desired platform (e.g., Desktop).
-   - Click on the green play button (or press `Ctrl+R`) to build and run the project.
+   - Click the green play button (or press `Ctrl+R`) to build and run the project.
 
+## Conclusion
 
-   ## Conclusion
-
-This Qt-based application showcases fundamental file handling functionalities within a graphical user interface (GUI) environment. Developed in C++ using the Qt framework, it offers the following key features:
-
-- **File Creation and Management**: Users can create new text files, write content to them, and manage existing files.
-- **File Selection and Display**: The application enables users to select files using a file dialog, read their content, and display it in the UI.
-- **Cross-Platform Compatibility**: Leveraging Qt's capabilities, the application ensures seamless operation across different operating systems, making it a versatile solution for GUI development.
-
-By demonstrating these file handling capabilities, this project underscores Qt's robustness in developing user-friendly applications with essential functionalities for managing and interacting with files.
-
----
-<div align="center">
+The Simple Notepad project showcases essential text editing functionalities within a Qt-based GUI application. Developed in C++, it provides a familiar notepad experience with features for file handling, text editing, and user interaction. Utilizing Qt ensures cross-platform compatibility and efficient text and file management.
 
 ### Contact Information
+
+<div align="center">
 
 [![Email](https://img.shields.io/badge/Email-sivasaiyarlagadda2001@gmail.com-green?style=flat-square&logo=gmail)](mailto:sivasaiyarlagadda2001@gmail.com)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sivasai_Yarlagadda-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sivasai-yarlagadda)
-
 
 </div>
